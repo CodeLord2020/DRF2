@@ -1,0 +1,24 @@
+Collecting environs[django]
+  Downloading environs-9.5.0-py2.py3-none-any.whl (12 kB)
+Collecting marshmallow>=3.0.0
+  Downloading marshmallow-3.19.0-py3-none-any.whl (49 kB)
+     -------------------------------------- 49.1/49.1 kB 417.6 kB/s eta 0:00:00
+Collecting python-dotenv
+  Downloading python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+Collecting dj-database-url
+  Downloading dj_database_url-2.0.0-py3-none-any.whl (7.6 kB)
+Collecting dj-email-url
+  Downloading dj_email_url-1.0.6-py2.py3-none-any.whl (6.3 kB)
+Collecting django-cache-url
+  Downloading django_cache_url-3.4.4-py2.py3-none-any.whl (4.7 kB)
+Collecting packaging>=17.0
+  Downloading packaging-23.1-py3-none-any.whl (48 kB)
+     -------------------------------------- 48.9/48.9 kB 411.3 kB/s eta 0:00:00
+Requirement already satisfied: Django>=3.2 in c:\users\macsauce\anaconda3\envs\djangoenv\lib\site-packages (from dj-database-url->environs[django]) (4.1.7)
+Collecting typing-extensions>=3.10.0.0
+  Downloading typing_extensions-4.6.3-py3-none-any.whl (31 kB)
+Requirement already satisfied: asgiref<4,>=3.5.2 in c:\users\macsauce\anaconda3\envs\djangoenv\lib\site-packages (from Django>=3.2->dj-database-url->environs[django]) (3.6.0)
+Requirement already satisfied: sqlparse>=0.2.2 in c:\users\macsauce\anaconda3\envs\djangoenv\lib\site-packages (from Django>=3.2->dj-database-url->environs[django]) (0.4.3)
+Requirement already satisfied: tzdata in c:\users\macsauce\anaconda3\envs\djangoenv\lib\site-packages (from Django>=3.2->dj-database-url->environs[django]) (2023.3)
+Installing collected packages: django-cache-url, dj-email-url, typing-extensions, python-dotenv, packaging, marshmallow, dj-database-url, environs
+Successfully installed dj-database-url-2.0.0 dj-email-url-1.0.6 django-cache-url-3.4.4 environs-9.5.0 marshmallow-3.19.0 packaging-23.1 python-dotenv-1.0.0 typing-extensions-4.6.3
